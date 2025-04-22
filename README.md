@@ -63,6 +63,8 @@ pip install -r requirements.txt
 
 Unzip the dataset for training present under Research\final_masked_dataset.zip
 
+---
+
 ## 🧪 Testing
 
 Run the provided URL on Postman on IDE:
@@ -97,7 +99,7 @@ Take **POST** request:
 } 
 
 ```
-
+---
 
 ## 🛡️ Data Privacy
 
