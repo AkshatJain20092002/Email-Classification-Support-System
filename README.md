@@ -45,7 +45,7 @@ This repository provides an end-to-end system for classifying customer support e
   - Problem
   - Request
   - Change
-- **FLASK API** endpoint for live predictions
+- **FLASK API** endpoint for live predictions **(Easy to Use, No Cost Deployment)**
 
 ---
 
@@ -99,7 +99,7 @@ Take **POST** request:
 
 ## 🛡️ Data Privacy
 
-All personally identifiable information (PII) and sensitive card information (PCI) are masked before processing using custom regex and multilingual NER.
+All personally identifiable information (PII) and sensitive card information (PCI) are masked before processing using custom regex and multilingual NER **leveraging no-cost enabled models.** This masking is achieved using completely free available resources.
 
 ---
 
