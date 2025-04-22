@@ -1,0 +1,15 @@
+Research/               
+.git/                   
+.github/                
+__pycache__/            
+*.pyc                   
+*.pyo
+*.pyd
+*.ipynb                 
+*.ipynb_checkpoints     
+venv/                   
+env/
+.vscode/                
+.idea/
+*.log                   
+.DS_Store               
