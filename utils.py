@@ -48,7 +48,14 @@ class PIIMasker:
             "dob": (
                 r'(?i)(?:born|birth|dob|birthday)'
                 r'(?:\s+(?:on|date|is|:))?\s+'
-                r'(?P<dob>\d{1,2}[/-]\d{1,2}[/-]\d{2,4})'
+                r'(?P<dob>('
+                r'\d{1,2}[/-]\d{1,2}[/-]\d{2,4}'
+                r'|'
+                r'\d{1,2}(?:[ -])'
+                r'(?:January|February|March|April|May|June|July|August'
+                r'|September|October|November|December)'
+                r'(?:[ -])\d{4}'
+                r'))'
             ),
             "credit_debit_no": (
                 r'(?:^[0-9]{4}[0-9]{4}[0-9]{4}[0-9]{4}$)|'
