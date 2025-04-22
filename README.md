@@ -29,7 +29,9 @@ This repository provides an end-to-end system for classifying customer support e
 ├── final_pipeline.pkl      # Saved ML pipeline
 ├── requirements.txt        # Project dependencies
 ├── Dockerfile              # To build and deploy application
-├── Documentation Report             
+├── Documentation Report
+├── Postman Collection/
+│   └── Email Classification Support System.postman_collection
 └── README.md               
 ```
 
